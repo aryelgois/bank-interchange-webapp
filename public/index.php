@@ -19,6 +19,10 @@ if (file_exists('assets/assets.json')) {
             integrity="sha256-HxaKz5E/eBbvhGMNwhWRPrAR9i/lG1JeT4mD6hCQ7s4="
             crossorigin="anonymous"
         />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Lato:400,400i,900"
+        />
 <?php if ($mode == 'production'): ?>
         <link
             rel="stylesheet"
