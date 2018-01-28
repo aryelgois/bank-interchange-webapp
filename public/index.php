@@ -13,6 +13,12 @@ if (file_exists('assets/assets.json')) {
     <head>
         <meta charset="utf-8">
         <title>PHP + Vue.js</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+            integrity="sha256-HxaKz5E/eBbvhGMNwhWRPrAR9i/lG1JeT4mD6hCQ7s4="
+            crossorigin="anonymous"
+        />
 <?php if ($mode == 'production'): ?>
         <link
             rel="stylesheet"
